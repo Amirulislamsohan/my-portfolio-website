@@ -87,6 +87,10 @@ header .banner img{
 }
 
 /* about section */
+.sec-what{
+    width: 90%;
+    margin: auto;
+}
 .about{
     width: 80%;
  margin: auto;
@@ -121,4 +125,72 @@ align-items: center;
 .about ul li h4{
     margin-bottom: 10px;
     text-align: center;
+}
+/* what section  */
+.lang-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.what{
+    font-size: 35px;
+    text-align: center;
+    margin-block: 75px;
+}
+.article-what{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+
+}
+
+.box-shadow{
+    width: 180px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+
+/* summary ...... */
+.summary-sec{
+    margin: 78px 10px;
+}
+.summary-sec > h1 {
+    text-align: center;
+    margin: 60px 0px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.list-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.list-box ul {
+    width: 37%;
+    list-style: none;
+}
+.list-box ul > h2{
+    font-size: 1.17em;
+    margin-block: 20px;
+}
+.list-box ul h4{
+    
+    margin-block:25px;
+}
+.list-box ul h3,p{
+    color: #757575;
+    margin-bottom: 20px;
+    
+}
+.download-btn{
+    color: white;
+    background-color: #FD6E0A;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: 0;
+    margin: 30px 0;
+    position: relative;
+    left: 45%;
+    font-weight: bold;
+    font-size: 20px;
 }
