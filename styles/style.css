@@ -194,3 +194,36 @@ align-items: center;
     font-weight: bold;
     font-size: 20px;
 }
+
+/* footer  */
+
+footer{
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+}
+footer section{
+    display: flex;
+}
+footer section div {
+    width: 80%;
+}
+footer section div h1{
+    font-size: 35px;
+}
+footer li{
+list-style-type: none;
+border: 0;
+}
+footer ul h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+footer li input{
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+}
+footer ul button {
+    margin-right: 290px;
+}
